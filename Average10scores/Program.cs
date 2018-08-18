@@ -9,13 +9,15 @@ namespace Calculating_Averages2
     class Program
     {
         static void Main(string[] args)
-        
+
         {
             int num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, sum;
-          
+            double avg;
 
-               
-          
+
+
+
+
             Console.Write("Insert a number between 0 and 100 to calculate their sum");
             Console.Write("First number:");
             num1 = Convert.ToInt32(Console.ReadLine());
@@ -25,7 +27,7 @@ namespace Calculating_Averages2
                 Console.WriteLine("Enter number again");
                 num1 = Convert.ToInt32(Console.ReadLine());
             }
-            
+
             Console.Write("Second number:");
             num2 = Convert.ToInt32(Console.ReadLine());
             while (num2 <= 0 || num2 >= 100)
@@ -99,13 +101,38 @@ namespace Calculating_Averages2
                 num10 = Convert.ToInt32(Console.ReadLine());
             }
             sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
-            Console.Write("Answer=" + sum);
+           
+            avg = sum / 10;
 
+            while (avg >= 90.0)
+            {
+                Console.WriteLine("Letter Grade is an A");
+                avg = Convert.ToInt32(Console.ReadLine());
+            }
+            while (avg >= 80.0)
+            {
+                Console.WriteLine("Letter Grade is a B");
+                avg = Convert.ToInt32(Console.ReadLine());
+            }
+            while (avg >= 70.0)
+            {
+                Console.WriteLine("Letter Grade is a C");
+                avg = Convert.ToInt32(Console.ReadLine());
+            }
+            while (avg >= 60.0)
+            {
+                Console.WriteLine("Letter Grade is a D");
+                avg = Convert.ToInt32(Console.ReadLine());
+            }
+            while (avg < 60.0)
+            {
+                Console.WriteLine("Letter Grade is a F");
+                avg = Convert.ToInt32(Console.ReadLine());
+            }
             Console.ReadKey();
-             
-    
-            
 
         }
+
+        
     }
 }

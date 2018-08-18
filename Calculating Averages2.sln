@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculating Averages2", "Calculating Averages2\Calculating Averages2.csproj", "{D83FDCA3-59C2-4047-B2F7-ED43CDF663E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average10scores", "Average10scores\Average10scores.csproj", "{F4FCF35B-477F-4DBA-B2CA-DADF41BD878D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageSpecificNumber", "AverageSpecificNumber\AverageSpecificNumber.csproj", "{6C923642-0D5D-462F-9552-E97E4344A504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D83FDCA3-59C2-4047-B2F7-ED43CDF663E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D83FDCA3-59C2-4047-B2F7-ED43CDF663E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83FDCA3-59C2-4047-B2F7-ED43CDF663E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FCF35B-477F-4DBA-B2CA-DADF41BD878D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FCF35B-477F-4DBA-B2CA-DADF41BD878D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FCF35B-477F-4DBA-B2CA-DADF41BD878D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FCF35B-477F-4DBA-B2CA-DADF41BD878D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C923642-0D5D-462F-9552-E97E4344A504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C923642-0D5D-462F-9552-E97E4344A504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C923642-0D5D-462F-9552-E97E4344A504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C923642-0D5D-462F-9552-E97E4344A504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
